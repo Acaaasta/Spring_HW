@@ -8,6 +8,10 @@
     <artifactId>Spring_HW1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
@@ -23,6 +27,14 @@
             <artifactId>spring-core</artifactId>
             <version>5.1.3.RELEASE</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.ws/spring-xml -->
+        <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-xml</artifactId>
+            <version>3.0.4.RELEASE</version>
+        </dependency>
+
 
     </dependencies>
 
