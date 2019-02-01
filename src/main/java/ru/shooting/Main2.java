@@ -17,5 +17,6 @@ public class Main2 {
 //        gun.setHolder(holder);
         client.gun=gun;
         client.shoot();
+        
     }
 }
