@@ -5,7 +5,7 @@
 
     <bean id="holderG" class="ru.shooting.Holder">
         <property name="countHolders" value="20"/>
-    </bean>>
+    </bean>
     <bean id="gun" class="ru.shooting.Gun">
         <property name="holder">
             <ref bean="holderG" />
