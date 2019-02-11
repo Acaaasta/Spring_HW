@@ -1,4 +1,4 @@
-package ru;
+package ru.Animals;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -17,6 +17,7 @@ public class MainClass {
         System.out.println(cat);
         System.out.println(dog);
 
+        ((AnnotationConfigApplicationContext) context).close();
 
     }
 }
